@@ -52,6 +52,16 @@ html::-webkit-scrollbar-thumb {
   gap: 4.8rem;
 }
 
+.main-nav-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
