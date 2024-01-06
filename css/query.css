@@ -1,0 +1,536 @@
+/* rem and em do NOT depend on  html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/* ************************************** */
+/* BELOW 1344px (Smaller Desktops)  */
+/* ************************************** */
+
+@media (max-width: 84em) {
+  /* ************************************** */
+  /* HEADER SECTION  */
+  /* ************************************** */
+
+  .header {
+    padding: 0 4.5rem;
+  }
+
+  .logo {
+    height: 3rem;
+  }
+
+  .main-nav-list {
+    gap: 4rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  /* ************************************** */
+  /* HERO SECTION  */
+  /* ************************************** */
+
+  .detail-im {
+    font-size: 22px;
+  }
+
+  .details h1 {
+    font-size: 3rem;
+  }
+
+  .details h2 {
+    font-size: 24px;
+  }
+
+  .detail-paragraph {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .download-resume {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    width: 10rem;
+    margin-top: 2rem;
+  }
+
+  .view-resume {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    width: 10rem;
+    margin-top: 2rem;
+  }
+
+  .social i {
+    font-size: 24px;
+    margin-right: 1.5rem;
+  }
+
+  .scroll-down-arrow {
+    height: 50px;
+    top: 86%;
+  }
+
+  /* ************************************** */
+  /* ABOUT SECTION  */
+  /* ************************************** */
+
+  .about-text {
+    width: 80%;
+  }
+
+  .about-heading {
+    font-size: 40px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+
+  /* ************************************** */
+  /* EXPERTISE SECTION  */
+  /* ************************************** */
+
+  .expertise-heading {
+    font-size: 40px;
+  }
+
+  .expertise-cards {
+    padding: 4rem 12rem 5rem 12rem;
+    gap: 1rem;
+  }
+
+  .expertise__card {
+    width: 8rem;
+    padding: 1rem;
+  }
+
+  .expertise__card img {
+    width: 46px;
+  }
+
+  .expertise__card p {
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  /* ************************************** */
+  /* PROJECT SECTION  */
+  /* ************************************** */
+
+  .project-card .project-info h1 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .project-card .btn {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  /* ************************************** */
+  /* FOOTER SECTION  */
+  /* ************************************** */
+
+  .footer {
+    height: 40vh;
+  }
+
+  .footer-logo img {
+    height: 4rem;
+    width: 5rem;
+    margin-left: 4rem;
+    margin-top: 2.5rem;
+  }
+
+  .footer-social p {
+    font-size: 18px;
+  }
+
+  .footer-social p::before {
+    left: 35%;
+  }
+
+  .footer-social a {
+    width: 32px;
+    height: 32px;
+  }
+
+  .footer-social i {
+    font-size: 22px;
+  }
+
+  .heading-contact {
+    font-size: 1.2rem;
+  }
+
+  .get-in-touch-btn {
+    width: 15rem;
+    font-size: 0.9rem;
+    margin-left: 9rem;
+  }
+
+  .get-in-touch-btn i {
+    padding-left: 1rem;
+    font-size: 16px;
+  }
+
+  .footer-copyright {
+    margin-top: 2rem;
+    font-size: 16px;
+  }
+}
+
+/* ************************************** */
+/* BELOW 1200px (Landscape Tablets)  */
+/* ************************************** */
+
+@media (max-width: 75em) {
+  /* 9px / 16px = 0.56  = 56%
+
+/* ************************************** */
+  /* ABOUT SECTION  */
+  /* ************************************** */
+
+  .about-text {
+    width: 85%;
+  }
+
+  .about-text p {
+    letter-spacing: 0.1rem;
+  }
+
+  .about-heading {
+    margin-bottom: 2rem;
+  }
+
+  /* ************************************** */
+  /* EXPERTISE SECTION  */
+  /* ************************************** */
+
+  .expertise-cards {
+    padding: 4rem 10rem 5rem 10rem;
+    gap: 1rem;
+  }
+
+  .expertise__card p {
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  .expertise-svg {
+    height: 60px;
+    width: 60px;
+  }
+
+  .expertise-logo-bootstrap {
+    height: 60px;
+    width: 60px;
+  }
+
+  /* ************************************** */
+  /* FOOTER SECTION  */
+  /* ************************************** */
+
+  .heading-contact {
+    font-size: 1rem;
+  }
+
+  .get-in-touch-btn {
+    font-size: 0.9rem;
+    color: #fff;
+    width: 16rem;
+    padding: 1rem;
+    border: 2px solid #ebc870;
+    border-radius: 28px;
+    margin-left: 6.5rem;
+  }
+
+  .get-in-touch-btn i {
+    font-size: 18px;
+  }
+}
+
+/* ************************************** */
+/* BELOW 944px ( Tablets)  */
+/* ************************************** */
+
+@media (max-width: 59em) {
+  /* 8px / 16px = 0.5 = 50%
+
+/* ************************************** */
+  /* HEADER  */
+  /* ************************************** */
+
+  .header {
+    padding: 0 3rem;
+  }
+
+  .logo {
+    height: 3rem;
+  }
+
+  .main-nav-list {
+    gap: 3rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  /* ************************************** */
+  /* HERO SECTION  */
+  /* ************************************** */
+
+  .main-section {
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #201f1e;
+    background-image: none;
+    /* box-shadow: 1px 5px 19px 0px rgba(0, 0, 0, 0.75); */
+    /* background-color: #201f1e; */
+  }
+
+  .hero-section {
+    margin-top: 9rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* ************************************** */
+  /* INTRO SECTION  */
+  /* ************************************** */
+  .details {
+    margin-left: 8rem;
+    width: 50%;
+  }
+
+  .detail-profession {
+    word-break: break-all;
+  }
+
+  .detail-im {
+    font-size: 20px;
+  }
+
+  .details h1 {
+    display: inline;
+    padding-left: 0rem;
+    font-size: 2.5rem;
+  }
+
+  .details h2 {
+    font-size: 28px;
+    color: #ebc870;
+  }
+
+  .detail-paragraph {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .download-resume {
+    font-size: 14px;
+    height: 2rem;
+    width: 10rem;
+    margin-top: 2rem;
+  }
+
+  .view-resume {
+    font-size: 14px;
+    height: 2rem;
+    width: 10rem;
+    margin-top: 2rem;
+  }
+
+  .social {
+    margin-top: 1.5rem;
+  }
+
+  .social i {
+    font-size: 24px;
+    margin-right: 1.4rem;
+  }
+
+  /* ************************************** */
+  /* PHOTO SECTION  */
+  /* ************************************** */
+  .taufiq-photo {
+    display: none;
+  }
+
+  /* ************************************** */
+  /* ABOUT SECTION  */
+  /* ************************************** */
+  .about {
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #201f1e;
+  }
+
+  .about-text {
+    height: auto;
+    width: 85%;
+  }
+
+  .about-heading {
+    letter-spacing: 0.1rem;
+    color: #ebc870;
+    font-size: 36px;
+    margin-bottom: 2rem;
+  }
+
+  .about-text p {
+    font-size: 14px;
+  }
+
+  /* ************************************** */
+  /* EXPERTISE SECTION  */
+  /* ************************************** */
+
+  .expertise-heading {
+    font-size: 36px;
+  }
+
+  .expertise-cards {
+    padding: 4rem 6rem 5rem 6rem;
+    gap: 1rem;
+  }
+
+  .expertise__card p {
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  .expertise-svg {
+    height: 52px;
+    width: 52px;
+  }
+
+  .expertise-logo-bootstrap {
+    height: 52px;
+    width: 52px;
+  }
+
+  /* ************************************** */
+  /* PROJECT SECTION  */
+  /* ************************************** */
+
+  .project-heading {
+    font-size: 36px;
+  }
+
+  .project-card .project-info h1 {
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+  }
+
+  .project-card .project-info {
+    margin-left: 1.5rem;
+  }
+  .project-card .btn {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    font-size: 8px;
+    font-weight: 600;
+  }
+
+  /* ************************************** */
+  /* FOOTER SECTION  */
+  /* ************************************** */
+
+  .footer {
+    width: 90vw;
+    height: 40vh;
+    margin-top: 4.5rem;
+  }
+
+  .heading-contact {
+    font-size: 0.88rem;
+  }
+
+  .footer-get-in-touch {
+    padding-left: 2rem;
+  }
+
+  .get-in-touch-btn {
+    font-size: 0.8rem;
+    width: 14rem;
+    padding: 0.8rem;
+    border: 2px solid #ebc870;
+    border-radius: 28px;
+    margin-left: 5rem;
+  }
+
+  .get-in-touch-btn a {
+    font-size: 0.8rem;
+  }
+
+  .get-in-touch-btn i {
+    font-size: 18px;
+  }
+
+  .footer-copyright {
+    font-size: 14px;
+  }
+
+  /* ************************************** */
+  /* BELOW 704px ( Tablets)  */
+  /* ************************************** */
+
+  /* ************************************** */
+  /* INTRO SECTION  */
+  /* ************************************** */
+
+  /* ************************************** */
+  /* PHOTO SECTION  */
+  /* ************************************** */
+}
+/* ************************************** */
+/* BELOW 544px ( Phones)  */
+/* ************************************** */
+
+@media (max-width: 34em) {
+  /* ************************************** */
+  /* HEADER  */
+  /* ************************************** */
+
+  /* ************************************** */
+  /* HERO SECTION  */
+  /* ************************************** */
+
+  /* ************************************** */
+  /* INTRO SECTION  */
+  /* ************************************** */
+
+  /* ************************************** */
+  /* PHOTO SECTION  */
+  /* ************************************** */
+}
+
+/* FONT SIZE (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* SPACING SYSTEM (px)
+   2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
+/* ************************************** */
+/* FIXING SAFARI FLEXBOX GAP  */
+/* ************************************** */
