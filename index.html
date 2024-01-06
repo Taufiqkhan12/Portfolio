@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta tags -->
+    <meta
+      name="description"
+      content="The portfolio of Taufiq Khan, FullStack Developer."
+    />
+    <meta name="keywords" content="taufiq khan, taufiq,Khan Taufiq" />
+    <meta name="author" content="Taufiq Khan" />
+
+    <meta
+      property="og:description"
+      content="The portfolio of Taufiq Khan, FullSatck Developer."
+    />
+    <meta property="og:url" content="" />
+    <meta property="og:image:alt" content="Taufiq Khan" />
+    <meta property="og:site_name" content="Taufiq Khan" />
+    <meta property="og:title" content="Taufiq Khan — FullStack Developer" />
+
+    <title>Taufiq Khan - FullStack Developer</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/query.css" />
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ************************************** 
+            MAIN SECTION  
+        **************************************  -->
+
+    <section class="main-section">
+      <header id="header" class="header">
+        <a href="#">
+          <img
+            src="/logos/Taufiq Khan-logos_white.png"
+            alt="taufiq-logo"
+            class="logo"
+          />
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <a href="#" class="main-nav-link">Home</a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="main-nav-link header-about"
+                onclick="scrollToAbout()"
+                >About</a
+              >
+            </li>
+            <li>
+              <a href="#" class="main-nav-link" onclick="scrollToExpertise()"
+                >Expertise</a
+              >
+            </li>
+            <li>
+              <a href="#" class="main-nav-link" onclick="scrollToProject()"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#" class="main-nav-link" onclick="scrollToContact()"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- ************************************** 
+            HERO SECTION  
+        **************************************  -->
+
+      <section class="hero-section">
+        <div class="details">
+          <div class="detail-text">
+            <span class="detail-im">I'm</span>
+            <h1 class="detail-name">Taufiq Khan</h1>
+            <h2 class="detail-profession">Full Stack Developer</h2>
+            <p class="detail-paragraph">
+              Passionate about crafting seamless digital experiences. With
+              expertise in both front-end and back-end technologies, I bring
+              creative ideas to life through clean and efficient code
+            </p>
+          </div>
+          <div class="resume">
+            <a
+              href="/pdf/Taufiq-Resume.pdf"
+              download="Taufiq-resume"
+              class="download-resume"
+              >Download Resume</a
+            >
+            <a
+              href="/pdf/Taufiq-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="view-resume"
+              >View Resume</a
+            >
+          </div>
+          <div class="social">
+            <a
+              href="https://github.com/Taufiqkhan12"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                class="fa-brands fa-github"
+                style="color: #ffffff"
+                class="social-icon"
+              ></i>
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <i
+                class="fa-brands fa-linkedin"
+                style="color: #ffffff"
+                class="social-icon"
+              ></i>
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <i
+                class="fa-brands fa-x-twitter"
+                style="color: #ffffff"
+                class="social-icon"
+              ></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="taufiq-photo">
+          <!-- <img src="/images/background.jpg" alt="taufiq-photo" /> -->
+        </div>
+
+        <dotlottie-player
+          src="https://lottie.host/bb3f08dd-f4c5-4882-9876-b7910258510a/iabkLbpDdB.json"
+          background="transparent"
+          speed="1"
+          class="scroll-down-arrow"
+          loop
+          autoplay
+          onclick="document.querySelector('.about').scrollIntoView({
+            behavior: 'smooth'
+          })"
+        ></dotlottie-player>
+      </section>
+    </section>
+
+    <!-- ************************************** 
+        ABOUT SECTION  
+    **************************************  -->
+
+    <section id="about" class="about" e>
+      <div class="about-text">
+        <h1 class="about-heading">About</h1>
+        <p about-paragraph>
+          👨‍💻 Welcome to my portfolio! I am a full-stack developer based in the
+          vibrant city of Mumbai, and I am passionate about crafting seamless
+          digital experiences. 💼 With a keen eye for detail and a love for
+          problem-solving, I specialize in both front-end (<i
+            class="fa-brands fa-react"
+            style="color: #0968f7"
+          ></i>
+          React, <i class="fa-brands fa-html5" style="color: #da5b25"></i> HTML,
+          <i class="fa-brands fa-css3-alt" style="color: #0762f8"></i> CSS,
+          <i class="fa-brands fa-js" style="color: #ffff00"></i> JavaScript) and
+          back-end (<i class="fa-brands fa-node" style="color: #008040"></i>
+          Node.js,
+          <i class="fa-solid fa-database" style="color: #008040"></i> Mongodb)
+          technologies. From designing intuitive user interfaces to developing
+          robust server-side logic, I thrive on creating web applications that
+          not only meet but exceed user expectations. My journey in the world of
+          technology has been driven by a relentless pursuit of excellence, and
+          I am committed to delivering innovative solutions that make a lasting
+          impact. Let's embark on a journey of innovation together, where every
+          line of code is an opportunity to enhance the digital landscape. 🌐
+        </p>
+      </div>
+    </section>
+
+    <!-- ************************************** 
+        EXPERTISE SECTION  
+    **************************************  -->
+
+    <section id="expertise" class="expertise">
+      <h1 class="expertise-heading">My Expertise</h1>
+      <div class="expertise-cards">
+        <div
+          class="expertise__card animate__animated animate__fadeInLeft animate__delay-1s animate__fadeInUp"
+          style="--animate-delay: 0.2s"
+          data-tilt
+          data-tilt-glare
+        >
+          <svg class="expertise-svg">
+            <use href="/logos/skills.svg#html"></use>
+          </svg>
+          <p>HTML</p>
+        </div>
+        <div
+          class="expertise__card animate__animated animate__fadeInLeft animate__delay-1s animate__fadeInUp"
+          style="--animate-delay: 0.4s"
+          data-tilt
+          data-tilt-glare
+        >
+          <svg class="expertise-svg">
+            <use href="/logos/skills.svg#css"></use>
+          </svg>
+          <p>CSS</p>
+        </div>
+        <div
+          class="expertise__card animate__animated animate__fadeInLeft animate__delay-1s animate__fadeInUp"
+          style="--animate-delay: 0.6s"
+          data-tilt
+          data-tilt-glare
+        >
+          <svg class="expertise-svg">
+            <use href="/logos/skills.svg#javascript"></use>
+          </svg>
+          <p>JavaScript</p>
+        </div>
+        <div
+          class="expertise__card animate__animated animate__fadeInLeft animate__delay-1s animate__fadeInUp"
+          style="--animate-delay: 0.8s"
+          data-tilt
+          data-tilt-glare
+        >
+          <svg class="expertise-svg">
+            <use href="/logos/skills.svg#bootstrap"></use>
+          </svg>
+          <p>Bootstrap</p>
+        </div>
+        <div
+          class="expertise__card animate__animated animate__fadeInLeft animate__delay-1s animate__fadeInUp"
+          style="--animate-delay: 1s"
+          data-tilt
+          data-tilt-glare
+        >
+          <svg class="expertise-svg">
+            <use href="/logos/skills.svg#mongodb"></use>
+          </svg>
+          <p>Mongodb</p>
+        </div>
+        <div
+          class="expertise__card animate__animated animate__fadeInLeft animate__delay-1s animate__fadeInUp"
+          style="--animate-delay: 1.2s"
+          data-tilt
+          data-tilt-glare
+        >
+          <svg class="expertise-svg">
+            <use href="/logos/skills.svg#express"></use>
+          </svg>
+          <p>Expressjs</p>
+        </div>
+        <div
+          class="expertise__card animate__animated animate__fadeInLeft animate__delay-1s animate__fadeInUp"
+          style="--animate-delay: 1.4s"
+          data-tilt
+          data-tilt-glare
+        >
+          <svg class="expertise-svg">
+            <use href="/logos/skills.svg#react"></use>
+          </svg>
+          <p>React</p>
+        </div>
+        <div
+          class="expertise__card animate__animated animate__fadeInLeft animate__delay-1s animate__fadeInUp"
+          style="--animate-delay: 1.6s"
+          data-tilt
+          data-tilt-glare
+        >
+          <svg class="expertise-svg animation">
+            <use href="/logos/skills.svg#nodejs"></use>
+          </svg>
+          <p>Nodejs</p>
+        </div>
+        <div
+          class="expertise__card animate__animated animate__fadeInLeft animate__delay-1s animate__fadeInUp"
+          style="--animate-delay: 1.8s"
+          data-tilt
+          data-tilt-glare
+        >
+          <svg class="expertise-svg animation">
+            <use href="/logos/skills.svg#postgresql"></use>
+          </svg>
+          <p>PostgreSql</p>
+        </div>
+        <div
+          class="expertise__card animate__animated animate__fadeInLeft animate__delay-1s animate__fadeInUp"
+          style="--animate-delay: 2s"
+          data-tilt
+          data-tilt-glare
+        >
+          <svg class="expertise-svg">
+            <use href="/logos/skills.svg#typescript"></use>
+          </svg>
+          <p>TypeScript</p>
+        </div>
+        <div
+          class="expertise__card animate__animated animate__fadeInLeft animate__delay-1s animate__fadeInUp"
+          style="--animate-delay: 2.2s"
+          data-tilt
+          data-tilt-glare
+        >
+          <svg class="expertise-svg">
+            <use href="/logos/skills.svg#nextjs"></use>
+          </svg>
+          <p>Nextjs</p>
+        </div>
+        <div
+          class="expertise__card animate__animated animate__fadeInLeft animate__delay-1s animate__fadeInUp"
+          style="--animate-delay: 2.4s"
+          data-tilt
+          data-tilt-glare
+        >
+          <svg class="expertise-svg">
+            <use href="/logos/skills.svg#figma"></use>
+          </svg>
+          <p>Figma</p>
+        </div>
+        <div
+          class="expertise__card animate__animated animate__fadeInLeft animate__delay-1s animate__fadeInUp"
+          style="--animate-delay: 2.6s"
+          data-tilt
+          data-tilt-glare
+        >
+          <svg class="expertise-svg">
+            <use href="/logos/skills.svg#github"></use>
+          </svg>
+          <p>Github</p>
+        </div>
+        <div
+          class="expertise__card animate__animated animate__fadeInLeft animate__delay-1s animate__fadeInUp"
+          style="--animate-delay: 2.8s"
+          data-tilt
+          data-tilt-glare
+        >
+          <svg class="expertise-svg">
+            <use href="/logos/skills.svg#aws"></use>
+          </svg>
+          <p>AWS</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ************************************** 
+            PROJECT SECTION  
+        **************************************  -->
+
+    <section id="project" class="projects">
+      <div class="project-div">
+        <div class="project-heading">Projects</div>
+        <div class="project-cards">
+          <div class="project-card">
+            <img src="/images/guessmyno.png" alt="guess-my-no-website-image" />
+            <div class="project-info">
+              <h1>Guess My Number</h1>
+              <a
+                href="https://guess-my-numbert.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn"
+                >Visit Website</a
+              >
+              <a
+                href="https://github.com/Taufiqkhan12/GuessTheNumber"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="project-card">
+            <img
+              src="/images/Roll A Fortune.png"
+              alt="guess-my-no-website-image"
+            />
+            <div class="project-info">
+              <h1>Roll A Fortune</h1>
+              <a
+                href="https://roll-of-fortune.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn"
+                >Visit Website</a
+              >
+              <a
+                href="https://github.com/Taufiqkhan12/DiceGame"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="/images/omnifood.png" alt="guess-my-no-website-image" />
+            <div class="project-info">
+              <h1>Omnifood</h1>
+              <a
+                href="https://omnifood-taufiq.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn"
+                >Visit Website</a
+              >
+              <a
+                href="https://github.com/Taufiqkhan12/Omnifood"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-info">
+              <h1>Coming Soon</h1>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-info">
+              <h1>Coming Soon</h1>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-info">
+              <h1>Coming Soon</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <footer>
+        <div class="footer">
+          <div class="footer-email">
+            <div class="footer-logo">
+              <img src="/logos/Taufiq Khan-logos_white.png" alt="logo" />
+              <div class="footer-social">
+                <p>Get in Touch</p>
+                <a
+                  href="https://github.com/Taufiqkhan12"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i
+                    class="fa-brands fa-github"
+                    style="color: #ffffff"
+                    class="footer-social-icon"
+                  ></i>
+                </a>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                  <i
+                    class="fa-brands fa-linkedin"
+                    style="color: #ffffff"
+                    class="footer-social-icon"
+                  ></i>
+                </a>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                  <i
+                    class="fa-brands fa-x-twitter"
+                    style="color: #ffffff"
+                    class="footer-social-icon"
+                  ></i>
+                </a>
+              </div>
+            </div>
+            <div class="footer-get-in-touch">
+              <div class="get-in-touch-animation">
+                <div class="get-in-touch-animation-mask">
+                  <div class="get-in-touch-word-shuffle">
+                    <span class="heading-contact"
+                      >"Level up your skills – Code with me!"</span
+                    >
+                    <span class="heading-contact"
+                      >"One coder, infinite possibilities. Let's innovate
+                      together!"</span
+                    >
+                    <span class="heading-contact"
+                      >"Unleash your potential–Join my coding journey!"</span
+                    >
+                    <span class="heading-contact"
+                      >"Crafting digital dreams solo? Let's connect!"</span
+                    >
+                    <span class="heading-contact">
+                      "Level up your skills–Code with me!"</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="get-in-touch-btn">
+                <a> ktaufiq913@gmail.com </a>
+                <i
+                  class="fa-solid fa-paper-plane"
+                  style="color: #ffffff"
+                  onclick="window.location.href= 'mailto:ktaufiq913@gmail.com';"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <p>
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              , All Rights Reserved Taufiq Khan
+            </p>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <!-- ************************************** 
+            JAVASCRIPT SECTION  
+        **************************************  -->
+    <script
+      type="text/javascript"
+      src="/javascript/animation.js"
+      defer
+    ></script>
+    <script type="text/javascript" src="/javascript/vanilla-tilt.js"></script>
+    <script src="scroll.js"></script>
+  </body>
+</html>
