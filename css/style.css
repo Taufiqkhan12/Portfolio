@@ -336,7 +336,7 @@ html::-webkit-scrollbar-thumb {
   justify-content: center;
   padding: 4rem 15rem 5rem 15rem;
   gap: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .expertise__card {
